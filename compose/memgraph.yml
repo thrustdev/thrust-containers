@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  memgraph:
+    ports:
+      - '7687:7687'
+    image: memgraph/memgraph
